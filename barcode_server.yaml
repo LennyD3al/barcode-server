@@ -56,7 +56,8 @@ barcode_server:
   # A list of absolute file paths to devices
   device_paths:
   #- "/dev/input/barcode_scanner"
-
+    - "path1"
+    - "path2"
   # (optional) Statistics configuration
   stats:
     # (optional) port to provide statistics on
