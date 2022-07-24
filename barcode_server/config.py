@@ -229,7 +229,8 @@ class AppConfig(ConfigBase):
         item_type=FileConfigEntry,
         key_path=[
             CONFIG_NODE_ROOT,
-            "device_paths"
+            "device_paths",
+            "xyz"
         ],
         default=[]
     )
